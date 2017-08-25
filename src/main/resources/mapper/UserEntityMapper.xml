@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.salinity.wms.mapper.IUserMapper">
+    <resultMap id="BaseResultMap" type="com.salinity.wms.pojo.UserEntity">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="login_name" jdbcType="VARCHAR" property="loginName"/>
+        <result column="login_pwd" jdbcType="VARCHAR" property="loginPwd"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="sex" jdbcType="INTEGER" property="sex"/>
+        <result column="degree" jdbcType="DOUBLE" property="degree"/>
+        <result column="telephone" jdbcType="VARCHAR" property="telephone"/>
+        <result column="create_user" jdbcType="VARCHAR" property="createUser"/>
+        <result column="create_time" jdbcType="BIGINT" property="createTime"/>
+        <result column="update_user" jdbcType="VARCHAR" property="updateUser"/>
+        <result column="update_time" jdbcType="BIGINT" property="updateTime"/>
+    </resultMap>
+
+    <sql id="queryWhereClause">
+        <where>
+            <if test="entity.id != null and entity.id != 0">
+                AND id = #{entity.id,JdbcType=BIGINT}
+            </if>
+            <if test="entity.name != null">
+                <bind name="name" value="'%' + entity.name + '%'"/>
+                AND name LIKE #{name}
+            </if>
+        </where>
+    </sql>
+
+    <sql id="Base_Column_List">
+    id, login_name, login_pwd, name, sex, degree, telephone,create_user, create_time, update_user, update_time
+  </sql>
+
+    <!--query limit语句-->
+    <sql id="queryLimitClause">
+        <if test="entity.offSet != null and entity.offSet >= 0 and entity.pageSize != null and entity.pageSize > 0">
+            LIMIT ${entity.offSet}, ${entity.pageSize}
+        </if>
+    </sql>
+
+    <!--query order by 语句-->
+    <sql id="queryOrderByClause">
+        <if test="entity.orderBy != null">
+            ORDER BY ${orderBy}
+        </if>
+        <if test="entity.orderBy == null">
+            ORDER BY create_time DESC
+        </if>
+    </sql>
+
+    <select id="selectUserPage" resultMap="BaseResultMap" parameterType="com.salinity.wms.pojo.UserEntity">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM user
+        <include refid="queryWhereClause"/>
+        <include refid="queryOrderByClause"/>
+        <include refid="queryLimitClause"/>
+    </select>
+
+    <select id="selectPageCount" resultType="java.lang.Integer" parameterType="com.salinity.wms.pojo.UserEntity">
+        SELECT
+        COUNT(1)
+        FROM user
+        <include refid="queryWhereClause"/>
+        <include refid="queryOrderByClause"/>
+        <include refid="queryLimitClause"/>
+    </select>
+
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+
+    <insert id="insertSelective" parameterType="com.salinity.wms.pojo.UserEntity">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="loginName != null">
+                login_name,
+            </if>
+            <if test="loginPwd != null">
+                login_pwd,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="sex != null">
+                sex,
+            </if>
+            <if test="degree != null">
+                degree,
+            </if>
+            <if test="telephone != null">
+                telephone,
+            </if>
+            <if test="createUser != null">
+                create_user,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateUser != null">
+                update_user,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="loginName != null">
+                #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="loginPwd != null">
+                #{loginPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="sex != null">
+                #{sex,jdbcType=INTEGER},
+            </if>
+            <if test="degree != null">
+                #{degree,jdbcType=DOUBLE},
+            </if>
+            <if test="telephone != null">
+                #{telephone,jdbcType=VARCHAR},
+            </if>
+            <if test="createUser != null">
+                #{createUser,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=BIGINT},
+            </if>
+            <if test="updateUser != null">
+                #{updateUser,jdbcType=VARCHAR},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=BIGINT},
+            </if>
+        </trim>
+    </insert>
+
+
+    <update id="updateByPrimaryKey" parameterType="com.salinity.wms.pojo.UserEntity">
+        update user
+        <set>
+            <if test="loginName != null">
+                login_name = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="loginPwd != null">
+                login_pwd = #{loginPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="sex != null">
+                sex = #{sex,jdbcType=INTEGER},
+            </if>
+            <if test="degree != null">
+                degree = #{degree,jdbcType=DOUBLE},
+            </if>
+            <if test="telephone != null">
+                telephone = #{telephone,jdbcType=VARCHAR},
+            </if>
+            <if test="createUser != null">
+                create_user = #{createUser,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=BIGINT},
+            </if>
+            <if test="updateUser != null">
+                update_user = #{updateUser,jdbcType=VARCHAR},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=BIGINT},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+</mapper>

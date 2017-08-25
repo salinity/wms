@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ZH">
+<head>
+    <meta charset="UTF-8">
+    <title>wms仓储管理系统</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/element-ui/1.1.2/theme-default/index.css">
+    <link rel="icon" href="https://sfault-avatar.b0.upaiyun.com/399/872/3998725175-5948dec100cdf_huge256"
+          type="image/x-icon">
+    <script src="//cdn.bootcss.com/vue/2.1.8/vue.min.js"></script>
+    <script src="//cdn.bootcss.com/element-ui/1.1.2/index.js"></script>
+    <script src="//cdn.bootcss.com/vue-resource/1.0.3/vue-resource.min.js"></script>
+</head>
+<body>
+<div id="vm">
+    <el-row :gutter="3" style="margin: 10px 0;">
+
+        <el-col :span="5">
+            <el-input placeholder="输入用户名称查询" v-model="username" icon="search" @change=""></el-input>
+        </el-col>
+        <span style="float: right">
+            <el-button type="primary" @click="rest">重置</el-button>
+            <el-button type="primary" @click="findAll">搜索</el-button>
+        </span>
+    </el-row>
+    <el-table border fit :data="tableData" highlight-current-row style="width: 100%;font-size: 12px;">
+        <el-table-column prop="id" label="序号" width="80"></el-table-column>
+        <el-table-column prop="name" label="用户名称"></el-table-column>
+        <el-table-column prop="sex" label="性别" :formatter="formatSex"></el-table-column>
+        <el-table-column prop="createTime" label="创建时间" sortable :formatter="formatCreateDate"></el-table-column>
+    </el-table>
+    <el-col class="toolbar" style="padding:10px;">
+        <el-pagination @current-change="findAll" :current-page="currentPage" :page-size="10"
+                       layout="total, prev, pager, next, jumper" :total="total" style="float:right"></el-pagination>
+    </el-col>
+</div>
+</body>
+<script> Vue.http.options.emulateJSON = true;
+Vue.http.options.emulateHTTP = true;
+var vm = new Vue({
+    el: '#vm',
+    data: {tableData: [], currentPage: 1, total: 10, listLoading: false, username: null},
+    mounted: function () {
+        this.findAll();
+    },
+    methods: {
+        findAll: function (currentPage) {
+            this.listLoading = true;
+            if (!isNaN(currentPage)) {
+                this.currentPage = currentPage;
+            }
+            var params_ = {page: this.currentPage, pageSize: 10};
+            if (this.username && this.username.trim() != "") {
+                params_['name'] = this.username;
+            }
+            this.$http.get("/user", {params: params_}).then(function (response) {
+//                console.log(response.data);
+                this.total = response.data.total;
+                this.tableData = response.data.rows;
+                for (var key in response.data.rows) {
+                    this.$set(this.tableData, key, response.data.rows[key]);
+                }
+            }).catch(function (response) {
+                console.error(response);
+            });
+            this.listLoading = false;
+        }, formatDate: function getNowFormatDate(time) {
+            const date = new Date(time);
+            const seperator1 = "-";
+            const seperator2 = ":";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            const currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate + " " + date.getHours() + seperator2 + date.getMinutes() + seperator2 + date.getSeconds();
+            return currentdate;
+        }, formatCreateDate: function (row, column) {
+            if (row.createTime != null) {
+                return this.formatDate(row.createTime);
+            } else {
+                return '';
+            }
+        }, formatSex: function (row, column) {
+            if (row.sex != null) {
+                return row.sex == 1 ? '男' : '女';
+            }
+        }, changeUsername: function () {
+            this.findAll(1);
+        }, rest: function () {
+            this._data.username = null;
+        }
+    }
+}); </script>
+</html>

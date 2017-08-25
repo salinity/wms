@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vuePage1</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/element-ui/1.1.2/theme-default/index.css">
+    <link rel="icon" href="https://sfault-avatar.b0.upaiyun.com/399/872/3998725175-5948dec100cdf_huge256"
+          type="image/x-icon">
+    <script src="//cdn.bootcss.com/vue/2.1.8/vue.min.js"></script>
+    <script src="//cdn.bootcss.com/element-ui/1.1.2/index.js"></script>
+    <script src="//cdn.bootcss.com/vue-resource/1.0.3/vue-resource.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        <input type="text" v-model="message"/>
+        <h1 v-if="message === 'Apple'">
+           Apple
+        </h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="person in people">
+                    <td>{{person.name}}</td>
+                    <td>{{person.sex}}</td>
+                    <td>{{person.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script>
+    const data = {
+        message: 'Hello World',
+        people: [
+            {
+                name:'李四',
+                sex:'man',
+                age:'18'
+            }, {
+                name:'李四',
+                sex:'man',
+                age:'18'
+            }, {
+                name:'李四',
+                sex:'man',
+                age:'18'
+            }
+        ]
+    }
+
+    new Vue({
+        el:'#app',
+        data:data
+    })
+</script>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px ;
+    }
+    table{
+        border: 1px solid black;
+    }
+    table th{
+        background-color: #12d279;
+        width: 150px;
+        font-style: italic;
+        color: white;
+    }
+    table td{
+        border: 0.5px solid black;
+    }
+</style>
+</html>
