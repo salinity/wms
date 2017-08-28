@@ -20,6 +20,8 @@
         <span style="float: right">
             <el-button type="primary" @click="rest">重置</el-button>
             <el-button type="primary" @click="findAll">搜索</el-button>
+            <el-button type="primary" @click="getCode">查询格式化数据</el-button>
+            <el-button type="primary" @click="putCode">添加格式化数据</el-button>
         </span>
     </el-row>
     <el-table border fit :data="tableData" highlight-current-row style="width: 100%;font-size: 12px;">
@@ -63,7 +65,8 @@ var vm = new Vue({
                 console.error(response);
             });
             this.listLoading = false;
-        }, formatDate: function getNowFormatDate(time) {
+        },
+        formatDate: function getNowFormatDate(time) {
             const date = new Date(time);
             const seperator1 = "-";
             const seperator2 = ":";
@@ -77,20 +80,30 @@ var vm = new Vue({
             }
             const currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate + " " + date.getHours() + seperator2 + date.getMinutes() + seperator2 + date.getSeconds();
             return currentdate;
-        }, formatCreateDate: function (row, column) {
+        },
+        formatCreateDate: function (row, column) {
             if (row.createTime != null) {
                 return this.formatDate(row.createTime);
             } else {
                 return '';
             }
-        }, formatSex: function (row, column) {
+        },
+        formatSex: function (row, column) {
             if (row.sex != null) {
                 return row.sex == 1 ? '男' : '女';
             }
-        }, changeUsername: function () {
+        },
+        changeUsername: function () {
             this.findAll(1);
-        }, rest: function () {
+        },
+        rest: function () {
             this._data.username = null;
+        },
+        getCode: function () {
+            this.$http.get("/code")
+        },
+        putCode: function () {
+            this.$http.post("/code")
         }
     }
 }); </script>

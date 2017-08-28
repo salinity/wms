@@ -3,6 +3,7 @@ package com.salinity.wms.service;
 
 import com.salinity.wms.common.web.MessageResult;
 import com.salinity.wms.common.web.PageResponse;
+import com.salinity.wms.pojo.UserEntity;
 import com.salinity.wms.pojo.dto.UserDTO;
 
 /**
@@ -11,6 +12,8 @@ import com.salinity.wms.pojo.dto.UserDTO;
 public interface IUserService {
 
     MessageResult getUser(Long id);
+
+    UserEntity selectUserById(Long id);
 
     PageResponse getUserPage(UserDTO userDTO);
 

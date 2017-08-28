@@ -14,7 +14,7 @@ import java.util.List;
 public interface IUserMapper {
 
     //    @Select("select * from user where id = #{id}")
-    UserEntity selectUserById(@Param("id") Long id);
+    UserEntity selectByPrimaryKey(@Param("id") Long id);
 
     List<UserEntity> findUsersByUsername(@Param("userName") String userName);
 

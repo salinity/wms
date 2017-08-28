@@ -46,10 +46,15 @@ public class UserService extends BaseService implements IUserService {
 
     @Override
     public MessageResult getUser(Long id) {
-        UserEntity userEntity = userMapper.selectUserById(id);
+        UserEntity userEntity = userMapper.selectByPrimaryKey(id);
         MessageResult mr = new MessageResult();
         mr.setObject(userEntity);
         return mr;
+    }
+
+    @Override
+    public UserEntity selectUserById(Long id) {
+        return userMapper.selectByPrimaryKey(id);
     }
 
     @Override
