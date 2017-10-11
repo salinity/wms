@@ -1,4 +1,4 @@
-package com.salinity.wms.common.until;
+package com.salinity.wms.common.untils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
