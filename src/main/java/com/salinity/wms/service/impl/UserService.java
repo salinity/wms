@@ -1,11 +1,13 @@
 package com.salinity.wms.service.impl;
 
 import com.salinity.wms.common.BaseService;
+import com.salinity.wms.common.message.MessageResult;
+import com.salinity.wms.common.repones.PageResponse;
+import com.salinity.wms.common.untils.BeanUtils;
 import com.salinity.wms.mapper.IUserMapper;
 import com.salinity.wms.pojo.UserEntity;
 import com.salinity.wms.pojo.dto.UserDTO;
 import com.salinity.wms.service.IUserService;
-import com.salinity.wms.utils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,17 +44,19 @@ public class UserService extends BaseService implements IUserService {
     }
 
     @Override
-    public ResponseResult getUser(Long id) {
-        UserEntity userEntity = userMapper.selectUserById(id);
-        ResponseResult mr = new ResponseResult();
-        mr.setObject(userEntity);
-        return mr;
+    public UserEntity findUserById(Long id) {
+        return userMapper.selectUserById(id);
     }
 
     @Override
-    public ResponseResult addUser(UserDTO userDTO) {
+    public MessageResult addUser(UserDTO userDTO) {
         UserEntity userEntity = BeanUtils.copyBeanPropertyUtils(userDTO, UserEntity.class);
         userMapper.saveUser(userEntity);
-        return getMessageSuc();
+        return MessageResult.getSucMessage();
+    }
+
+    @Override
+    public UserEntity findUserByUserName(String loginName) {
+        return userMapper.selectUserByUserName(loginName);
     }
 }

@@ -17,6 +17,8 @@ public class UserEntity extends BasePo {
     private Double degree;
     private String telephone;
     private Byte admin;
+    private Byte active;
+    private Byte del;
     private String createUser;
     private Long createTime;
     private String updateUser;
@@ -125,4 +127,19 @@ public class UserEntity extends BasePo {
         this.admin = admin;
     }
 
+    public Byte getActive() {
+        return active;
+    }
+
+    public void setActive(Byte active) {
+        this.active = active;
+    }
+
+    public Byte getDel() {
+        return del;
+    }
+
+    public void setDel(Byte del) {
+        this.del = del;
+    }
 }

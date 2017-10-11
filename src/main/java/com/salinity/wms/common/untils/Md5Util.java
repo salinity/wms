@@ -1,4 +1,4 @@
-package com.salinity.wms.common.until;
+package com.salinity.wms.common.untils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

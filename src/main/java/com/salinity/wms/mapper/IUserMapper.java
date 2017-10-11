@@ -4,6 +4,7 @@ import com.salinity.wms.pojo.UserEntity;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -16,7 +17,8 @@ public interface IUserMapper {
     //    @Select("select * from user where id = #{id}")
     UserEntity selectByPrimaryKey(@Param("id") Long id);
 
-    List<UserEntity> findUsersByUsername(@Param("userName") String userName);
+    @Select("select * from user where login_name = #{loginName}")
+    UserEntity selectUserByUserName(@Param("loginName") String loginName);
 
     List<UserEntity> selectUserPage(@Param("entity") UserEntity userEntity);
 

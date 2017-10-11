@@ -6,11 +6,4 @@ package com.salinity.wms.common;
  */
 public class Base {
 
-    public ResponseSuc getMessageSuc() {
-        return new ResponseSuc();
-    }
-
-    public ResponseFail getMessageFail() {
-        return new ResponseFail();
-    }
 }
