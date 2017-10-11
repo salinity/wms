@@ -1,15 +1,16 @@
 package com.salinity.wms.common.message;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextClosedEvent;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.stereotype.Service;
 
 import java.util.Locale;
 
-@JsonIgnoreType
+//@JsonIgnoreType
+@Service
 public class ResourceMessages implements Messages, ApplicationListener<ApplicationEvent> {
 
     protected ApplicationContext context = null;

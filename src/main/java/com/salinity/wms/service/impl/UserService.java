@@ -45,7 +45,7 @@ public class UserService extends BaseService implements IUserService {
 
     @Override
     public UserEntity findUserById(Long id) {
-        return userMapper.selectUserById(id);
+        return userMapper.selectByPrimaryKey(id);
     }
 
     @Override

@@ -9,7 +9,6 @@ import com.salinity.wms.constant.WmsConstants;
 import com.salinity.wms.pojo.UserEntity;
 import com.salinity.wms.pojo.domain.CurrentUser;
 import com.salinity.wms.service.IUserService;
-import com.sun.deploy.net.HttpResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOError;
 import java.io.IOException;
 
 

@@ -1,5 +1,7 @@
 package com.salinity.wms.controller.main;
 
+import com.salinity.wms.common.repones.PageResponse;
+import com.salinity.wms.common.repones.ResponseResult;
 import com.salinity.wms.common.web.BaseController;
 import com.salinity.wms.pojo.dto.UserDTO;
 import com.salinity.wms.service.IUserService;
@@ -46,10 +48,10 @@ public class UserController extends BaseController {
     @ResponseBody
     public ResponseResult getUser(@PathVariable Long id) {
         if(id == null || Long.valueOf(0L).equals(id)) {
-            return getMessageFail().setMessage("请输入正确的id");
+            return getFaultMessage("请输入正确的id");
         }
         //日志输出测试
-        return userService.getUser(id);
+        return getSucMessage();
     }
 
     /**
@@ -64,7 +66,7 @@ public class UserController extends BaseController {
         userDTO.setUpdateTime(new Date().getTime());
         userDTO.setUpdateUser("admin");
         userDTO.setCreateUser("admin");
-        return userService.addUser(userDTO);
+        return getSucMessage();
     }
 
 }
