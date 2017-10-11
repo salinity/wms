@@ -12,9 +12,11 @@ public class UserEntity extends BasePo {
     private String loginName;
     private String loginPwd;
     private String name;
+    private String realName;
     private Integer sex;
     private Double degree;
     private String telephone;
+    private Byte admin;
     private String createUser;
     private Long createTime;
     private String updateUser;
@@ -106,4 +108,21 @@ public class UserEntity extends BasePo {
     public void setUpdateTime(Long updateTime) {
         this.updateTime = updateTime;
     }
+
+    public String getRealName() {
+        return realName;
+    }
+
+    public void setRealName(String realName) {
+        this.realName = realName;
+    }
+
+    public Byte getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(Byte admin) {
+        this.admin = admin;
+    }
+
 }

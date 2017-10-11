@@ -1,8 +1,6 @@
 package com.salinity.wms.service.impl;
 
 import com.salinity.wms.common.BaseService;
-import com.salinity.wms.common.web.MessageResult;
-import com.salinity.wms.common.web.PageResponse;
 import com.salinity.wms.mapper.IUserMapper;
 import com.salinity.wms.pojo.UserEntity;
 import com.salinity.wms.pojo.dto.UserDTO;
@@ -11,7 +9,6 @@ import com.salinity.wms.utils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.rmi.CORBA.Util;
 import java.util.Date;
 import java.util.List;
 
@@ -45,15 +42,15 @@ public class UserService extends BaseService implements IUserService {
     }
 
     @Override
-    public MessageResult getUser(Long id) {
+    public ResponseResult getUser(Long id) {
         UserEntity userEntity = userMapper.selectUserById(id);
-        MessageResult mr = new MessageResult();
+        ResponseResult mr = new ResponseResult();
         mr.setObject(userEntity);
         return mr;
     }
 
     @Override
-    public MessageResult addUser(UserDTO userDTO) {
+    public ResponseResult addUser(UserDTO userDTO) {
         UserEntity userEntity = BeanUtils.copyBeanPropertyUtils(userDTO, UserEntity.class);
         userMapper.saveUser(userEntity);
         return getMessageSuc();
