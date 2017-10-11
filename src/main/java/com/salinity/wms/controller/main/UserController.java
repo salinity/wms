@@ -1,9 +1,6 @@
 package com.salinity.wms.controller.main;
 
-import com.salinity.wms.common.annotation.RequestLimit;
 import com.salinity.wms.common.web.BaseController;
-import com.salinity.wms.common.web.MessageResult;
-import com.salinity.wms.common.web.PageResponse;
 import com.salinity.wms.pojo.dto.UserDTO;
 import com.salinity.wms.service.IUserService;
 import org.slf4j.Logger;
@@ -47,7 +44,7 @@ public class UserController extends BaseController {
      */
     @GetMapping("/{id}")
     @ResponseBody
-    public MessageResult getUser(@PathVariable Long id) {
+    public ResponseResult getUser(@PathVariable Long id) {
         if(id == null || Long.valueOf(0L).equals(id)) {
             return getMessageFail().setMessage("请输入正确的id");
         }
@@ -62,7 +59,7 @@ public class UserController extends BaseController {
      */
     @PostMapping("")
     @ResponseBody
-    public MessageResult addUser(UserDTO userDTO) {
+    public ResponseResult addUser(UserDTO userDTO) {
         userDTO.setCreateTime(new Date().getTime());
         userDTO.setUpdateTime(new Date().getTime());
         userDTO.setUpdateUser("admin");
