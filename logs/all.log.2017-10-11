@@ -1,0 +1,696 @@
+2017-10-11 09:54:02,514  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 09:54:02,529  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 09:54:02,529  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 09:54:02,779  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 09:54:02,795  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 09:54:02,857  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a1adbf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6b95d875, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ab62081, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b101344, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c60db08, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6acc1164, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7b89f302, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1db147ab, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61d83ac7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3afb1100, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@39193540, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25f71a09]
+2017-10-11 09:54:02,857  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 09:54:02,857  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 09:54:02,857  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 09:54:02,873  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 09:54:02,873  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 09:54:02,873  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15f445b7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@580cfca3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c9e5e7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@414dc149, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57ccc11d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@439a83f3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@554ce931, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c61bbb7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@446b0224, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4d59ac93, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a510e91, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1f936f80]
+2017-10-11 09:54:03,606  INFO WmsApplicationTests:48 - Starting WmsApplicationTests on tong1-PC with PID 1372 (started by Administrator in H:\study\wms)
+2017-10-11 09:54:03,606  INFO WmsApplicationTests:597 - The following profiles are active: develop
+2017-10-11 09:54:03,902  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2686695c: startup date [Wed Oct 11 09:54:03 CST 2017]; root of context hierarchy
+2017-10-11 09:54:05,275  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 09:54:06,273  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 09:54:08,317  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 09:54:11,390  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2686695c: startup date [Wed Oct 11 09:54:03 CST 2017]; root of context hierarchy
+2017-10-11 09:54:11,546  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.web.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 09:54:11,546  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.web.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 09:54:11,546  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.web.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 09:54:11,562  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 09:54:11,562  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 09:54:11,640  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 09:54:11,640  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 09:54:11,733  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 09:54:11,796  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: ServletContext resource [/index.html]
+2017-10-11 09:54:12,857  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 09:54:13,091  WARN EndpointWebMvcAutoConfiguration:159 - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2017-10-11 09:54:13,091  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 09:54:13,184  WARN BrokerService:2146 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 892 mb - resetting to 70% of maximum available: 624 mb
+2017-10-11 09:54:13,387  INFO BrokerService:671 - Using Persistence Adapter: MemoryPersistenceAdapter
+2017-10-11 09:54:13,512  INFO ManagementContext:155 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2017-10-11 09:54:13,559  INFO BrokerService:734 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1295-1507686853418-0:1) is starting
+2017-10-11 09:54:13,559  INFO BrokerService:761 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1295-1507686853418-0:1) started
+2017-10-11 09:54:13,559  INFO BrokerService:762 - For help or more information please see: http://activemq.apache.org
+2017-10-11 09:54:13,621  INFO TransportConnector:263 - Connector vm://localhost started
+2017-10-11 09:54:13,746  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 09:54:13,746  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 09:54:13,746  INFO WmsApplicationTests:57 - Started WmsApplicationTests in 10.764 seconds (JVM running for 12.496)
+2017-10-11 09:54:13,839  INFO GenericWebApplicationContext:984 - Closing org.springframework.web.context.support.GenericWebApplicationContext@2686695c: startup date [Wed Oct 11 09:54:03 CST 2017]; root of context hierarchy
+2017-10-11 09:54:13,839  INFO BrokerService:808 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1295-1507686853418-0:1) is shutting down
+2017-10-11 09:54:13,855  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-10-11 09:54:13,855  INFO TransportConnector:294 - Connector vm://localhost stopped
+2017-10-11 09:54:13,855  WARN DefaultMessageListenerContainer:880 - Setup of JMS message listener invoker failed for destination 'LOG_QUEUE' - trying to recover. Cause: peer (vm://localhost#1) stopped.
+2017-10-11 09:54:13,871  INFO DruidDataSource:1288 - {dataSource-1} closed
+2017-10-11 09:54:13,871  INFO BrokerService:869 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1295-1507686853418-0:1) uptime 0.702 seconds
+2017-10-11 09:54:13,871  INFO BrokerService:871 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1295-1507686853418-0:1) is shutdown
+2017-10-11 16:00:25,605  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 16:00:25,682  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:00:25,886  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:00:25,966  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e38e978, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a67cc93, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@74a7e4d9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3aa19e64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@48a5d54e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7f571924, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f33cbcc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7188d649, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4eac8cda, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22536490, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10ef3b8b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a2e2b5c]
+2017-10-11 16:00:25,967  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 16:00:25,968  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:00:25,969  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 16:00:26,172  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 16:00:26,177  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:00:26,181  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4fb5b8a4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@236d3fde, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@597c19fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@628e5ef0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70fb111c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@73207f36, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5a7fed46, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b2bd15, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@729bb01b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b46f765, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@201c2e7f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a30a451]
+2017-10-11 16:00:26,188  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 16:00:26,189  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:00:26,201  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:00:26,205  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57340091, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17115c51, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@74c3d5ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@65010970, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2712cbde, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43066fdc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5b99f6e4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@592021b7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4c85a317, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59966240, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@200c85b3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@161dbb35]
+2017-10-11 16:00:27,228  INFO UserServiceTest:48 - Starting UserServiceTest on tong1-PC with PID 6840 (started by Administrator in H:\study\wms)
+2017-10-11 16:00:27,228  INFO UserServiceTest:597 - The following profiles are active: develop
+2017-10-11 16:00:27,397  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@63b7d9a8: startup date [Wed Oct 11 16:00:27 CST 2017]; root of context hierarchy
+2017-10-11 16:00:29,625  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 16:00:30,651  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:00:34,001  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 16:00:42,387  WARN GenericWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-10-11 16:00:42,423  INFO DruidDataSource:1288 - {dataSource-1} closed
+2017-10-11 16:00:42,476  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-11 16:00:42,778 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messages in com.salinity.wms.common.web.BaseController required a bean of type 'com.salinity.wms.common.message.Messages' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.salinity.wms.common.message.Messages' in your configuration.
+
+2017-10-11 16:00:42,780 ERROR TestContextManager:234 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@57340091] to prepare test instance [com.salinity.wms.service.impl.UserServiceTest@1e2d40c2]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 44 more
+2017-10-11 16:00:42,852  INFO UserServiceTest:48 - Starting UserServiceTest on tong1-PC with PID 6840 (started by Administrator in H:\study\wms)
+2017-10-11 16:00:42,852  INFO UserServiceTest:597 - The following profiles are active: develop
+2017-10-11 16:00:42,856  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50fc3c23: startup date [Wed Oct 11 16:00:42 CST 2017]; root of context hierarchy
+2017-10-11 16:00:43,435  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:00:43,635  INFO DruidDataSource:638 - {dataSource-2} inited
+2017-10-11 16:00:43,865  WARN GenericWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-10-11 16:00:43,867  INFO DruidDataSource:1288 - {dataSource-2} closed
+2017-10-11 16:00:43,871  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-11 16:00:43,993 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messages in com.salinity.wms.common.web.BaseController required a bean of type 'com.salinity.wms.common.message.Messages' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.salinity.wms.common.message.Messages' in your configuration.
+
+2017-10-11 16:00:43,994 ERROR TestContextManager:234 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@57340091] to prepare test instance [com.salinity.wms.service.impl.UserServiceTest@76ac9512]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 44 more
+2017-10-11 16:00:44,053  INFO UserServiceTest:48 - Starting UserServiceTest on tong1-PC with PID 6840 (started by Administrator in H:\study\wms)
+2017-10-11 16:00:44,054  INFO UserServiceTest:597 - The following profiles are active: develop
+2017-10-11 16:00:44,058  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@12add54f: startup date [Wed Oct 11 16:00:44 CST 2017]; root of context hierarchy
+2017-10-11 16:00:44,507  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:00:44,658  INFO DruidDataSource:638 - {dataSource-3} inited
+2017-10-11 16:00:44,879  WARN GenericWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-10-11 16:00:44,880  INFO DruidDataSource:1288 - {dataSource-3} closed
+2017-10-11 16:00:44,884  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-11 16:00:45,004 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messages in com.salinity.wms.common.web.BaseController required a bean of type 'com.salinity.wms.common.message.Messages' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.salinity.wms.common.message.Messages' in your configuration.
+
+2017-10-11 16:00:45,004 ERROR TestContextManager:234 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@57340091] to prepare test instance [com.salinity.wms.service.impl.UserServiceTest@5bdf92d5]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 44 more
+2017-10-11 16:00:45,008  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 16:00:45,009  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:00:45,010  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 16:00:45,014  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 16:00:45,018  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:00:45,021  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@268399, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6089b1e2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ffd9df1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@738c72a7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@9bb6d35, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ffeb790, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bc58861, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@257cb6ef, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ece1823, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c92b1a1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@12cbf8b7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d35c005]
+2017-10-11 16:00:45,139  INFO WmsApplicationTests:48 - Starting WmsApplicationTests on tong1-PC with PID 6840 (started by Administrator in H:\study\wms)
+2017-10-11 16:00:45,139  INFO WmsApplicationTests:597 - The following profiles are active: develop
+2017-10-11 16:00:45,143  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@54467983: startup date [Wed Oct 11 16:00:45 CST 2017]; root of context hierarchy
+2017-10-11 16:00:45,659  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:00:45,843  INFO DruidDataSource:638 - {dataSource-4} inited
+2017-10-11 16:00:46,067  WARN GenericWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-10-11 16:00:46,069  INFO DruidDataSource:1288 - {dataSource-4} closed
+2017-10-11 16:00:46,073  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-11 16:00:46,212 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messages in com.salinity.wms.common.web.BaseController required a bean of type 'com.salinity.wms.common.message.Messages' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.salinity.wms.common.message.Messages' in your configuration.
+
+2017-10-11 16:00:46,212 ERROR TestContextManager:234 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@268399] to prepare test instance [com.salinity.wms.WmsApplicationTests@5d01ea52]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 44 more
+2017-10-11 16:05:21,772  INFO WmsApplication:48 - Starting WmsApplication on tong1-PC with PID 4192 (H:\study\wms\target\classes started by Administrator in H:\study\wms)
+2017-10-11 16:05:21,778  INFO WmsApplication:597 - The following profiles are active: develop
+2017-10-11 16:05:21,874  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3a2a6e6c: startup date [Wed Oct 11 16:05:21 CST 2017]; root of context hierarchy
+2017-10-11 16:05:22,195  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 16:05:23,584  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:05:25,288  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 16:05:26,385  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-10-11 16:05:26,577  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 4706 ms
+2017-10-11 16:05:26,953  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-11 16:05:26,973  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+2017-10-11 16:05:26,978  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-11 16:05:26,979  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-11 16:05:26,979  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-11 16:05:26,979  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-11 16:05:26,980  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-10-11 16:05:26,980  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-10-11 16:05:27,465  WARN AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'codeController': Unsatisfied dependency expressed through field 'messages'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.salinity.wms.common.message.Messages' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2017-10-11 16:05:27,471  INFO DruidDataSource:1288 - {dataSource-1} closed
+2017-10-11 16:05:27,544  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-11 16:05:28,100 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messages in com.salinity.wms.common.web.BaseController required a bean of type 'com.salinity.wms.common.message.Messages' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.salinity.wms.common.message.Messages' in your configuration.
+
+2017-10-11 16:12:36,142  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 16:12:36,149  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:12:36,235  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:12:36,263  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4eac8cda, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22536490, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@10ef3b8b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a2e2b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d20cb10, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53f39660, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1d15a3af, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@77ad4513, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10921fc7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69644a50, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@374b003e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1cfd02ce]
+2017-10-11 16:12:36,264  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 16:12:36,266  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:12:36,267  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 16:12:36,355  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 16:12:36,362  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:12:36,367  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@729bb01b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b46f765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@201c2e7f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a30a451, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f73cf45, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c2cf42d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b52c4ce, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@26f6d704, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@179e5b98, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d8f6445, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30fffd2c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76466cd5]
+2017-10-11 16:12:36,377  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 16:12:36,379  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:12:36,392  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:12:36,397  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c85a317, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@59966240, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@200c85b3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@161dbb35, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79ed9fea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f9dfa2f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7c9454b3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e44f3aa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70d95674, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4cbb138d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e00b556, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50812848]
+2017-10-11 16:12:36,691  INFO UserServiceTest:48 - Starting UserServiceTest on tong1-PC with PID 6436 (started by Administrator in H:\study\wms)
+2017-10-11 16:12:36,692  INFO UserServiceTest:597 - The following profiles are active: develop
+2017-10-11 16:12:36,729  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70bca0dd: startup date [Wed Oct 11 16:12:36 CST 2017]; root of context hierarchy
+2017-10-11 16:12:37,122  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 16:12:37,977  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:12:39,232  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 16:12:41,297  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70bca0dd: startup date [Wed Oct 11 16:12:36 CST 2017]; root of context hierarchy
+2017-10-11 16:12:41,399  INFO RequestMappingHandlerMapping:543 - Mapped "{[/code],methods=[GET]}" onto public com.salinity.wms.pojo.UserEntity com.salinity.wms.controller.CodeController.getCode()
+2017-10-11 16:12:41,402  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/login],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.LoginController.login(java.lang.String,java.lang.String) throws java.lang.Exception
+2017-10-11 16:12:41,403  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/loginOut],methods=[GET]}" onto public void com.salinity.wms.controller.LoginController.loginOut(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-10-11 16:12:41,405  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 16:12:41,406  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.repones.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:12:41,407  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:12:41,410  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 16:12:41,411  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 16:12:41,509  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:41,509  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:41,616  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:41,664  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: ServletContext resource [/index.html]
+2017-10-11 16:12:43,235  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 16:12:43,392  WARN EndpointWebMvcAutoConfiguration:159 - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2017-10-11 16:12:43,400  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 16:12:43,574  WARN BrokerService:2146 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 892 mb - resetting to 70% of maximum available: 624 mb
+2017-10-11 16:12:43,777  INFO BrokerService:671 - Using Persistence Adapter: MemoryPersistenceAdapter
+2017-10-11 16:12:43,872  INFO ManagementContext:155 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2017-10-11 16:12:43,948  INFO BrokerService:734 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1795-1507709563812-0:1) is starting
+2017-10-11 16:12:43,963  INFO BrokerService:761 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1795-1507709563812-0:1) started
+2017-10-11 16:12:43,963  INFO BrokerService:762 - For help or more information please see: http://activemq.apache.org
+2017-10-11 16:12:43,993  INFO TransportConnector:263 - Connector vm://localhost started
+2017-10-11 16:12:44,130  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 16:12:44,131  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 16:12:44,132  INFO UserServiceTest:57 - Started UserServiceTest in 7.646 seconds (JVM running for 8.354)
+2017-10-11 16:12:45,321  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 16:12:45,322  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 16:12:45,322  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 16:12:45,326  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 16:12:45,329  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 16:12:45,332  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5dabf32b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@43e9bc18, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@263bee7d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28a66427, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43f9514a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2547f423, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@16ed38f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@303626ee, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3335ebfc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@191807a8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@789eb376, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b1845d7]
+2017-10-11 16:12:45,371  INFO WmsApplicationTests:48 - Starting WmsApplicationTests on tong1-PC with PID 6436 (started by Administrator in H:\study\wms)
+2017-10-11 16:12:45,371  INFO WmsApplicationTests:597 - The following profiles are active: develop
+2017-10-11 16:12:45,374  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35055cd1: startup date [Wed Oct 11 16:12:45 CST 2017]; root of context hierarchy
+2017-10-11 16:12:45,843  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:12:46,019  INFO DruidDataSource:638 - {dataSource-2} inited
+2017-10-11 16:12:46,959  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@35055cd1: startup date [Wed Oct 11 16:12:45 CST 2017]; root of context hierarchy
+2017-10-11 16:12:46,984  INFO RequestMappingHandlerMapping:543 - Mapped "{[/code],methods=[GET]}" onto public com.salinity.wms.pojo.UserEntity com.salinity.wms.controller.CodeController.getCode()
+2017-10-11 16:12:46,989  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/login],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.LoginController.login(java.lang.String,java.lang.String) throws java.lang.Exception
+2017-10-11 16:12:46,989  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/loginOut],methods=[GET]}" onto public void com.salinity.wms.controller.LoginController.loginOut(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-10-11 16:12:46,992  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 16:12:46,993  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.repones.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:12:46,993  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:12:46,997  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 16:12:46,997  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 16:12:47,061  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:47,062  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:47,115  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:12:47,135  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: ServletContext resource [/index.html]
+2017-10-11 16:12:47,602  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 16:12:47,738  WARN EndpointWebMvcAutoConfiguration:159 - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2017-10-11 16:12:47,739  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 16:12:47,751  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 16:12:47,752  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 16:12:47,753  INFO WmsApplicationTests:57 - Started WmsApplicationTests in 2.415 seconds (JVM running for 11.975)
+2017-10-11 16:12:47,841  INFO BrokerService:808 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1795-1507709563812-0:1) is shutting down
+2017-10-11 16:12:47,842  INFO GenericWebApplicationContext:984 - Closing org.springframework.web.context.support.GenericWebApplicationContext@35055cd1: startup date [Wed Oct 11 16:12:45 CST 2017]; root of context hierarchy
+2017-10-11 16:12:47,842  INFO GenericWebApplicationContext:984 - Closing org.springframework.web.context.support.GenericWebApplicationContext@70bca0dd: startup date [Wed Oct 11 16:12:36 CST 2017]; root of context hierarchy
+2017-10-11 16:12:47,844  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-10-11 16:12:47,844  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-10-11 16:12:47,877  INFO TransportConnector:294 - Connector vm://localhost stopped
+2017-10-11 16:12:47,878  WARN DefaultMessageListenerContainer:880 - Setup of JMS message listener invoker failed for destination 'LOG_QUEUE' - trying to recover. Cause: peer (vm://localhost#1) stopped.
+2017-10-11 16:12:47,886  INFO DruidDataSource:1288 - {dataSource-1} closed
+2017-10-11 16:12:47,938  INFO BrokerService:869 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1795-1507709563812-0:1) uptime 4.380 seconds
+2017-10-11 16:12:47,938  INFO BrokerService:871 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1795-1507709563812-0:1) is shutdown
+2017-10-11 16:12:52,881  WARN DefaultMessageListenerContainer:880 - Setup of JMS message listener invoker failed for destination 'LOG_QUEUE' - trying to recover. Cause: peer (vm://localhost#5) stopped.
+2017-10-11 16:12:52,884  INFO DruidDataSource:1288 - {dataSource-2} closed
+2017-10-11 16:13:20,586  INFO WmsApplication:48 - Starting WmsApplication on tong1-PC with PID 864 (H:\study\wms\target\classes started by Administrator in H:\study\wms)
+2017-10-11 16:13:20,597  INFO WmsApplication:597 - The following profiles are active: develop
+2017-10-11 16:13:20,700  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13695cf: startup date [Wed Oct 11 16:13:20 CST 2017]; root of context hierarchy
+2017-10-11 16:13:21,030  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 16:13:22,393  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 16:13:23,935  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 16:13:24,656  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-10-11 16:13:24,812  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 4117 ms
+2017-10-11 16:13:25,178  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-11 16:13:25,185  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+2017-10-11 16:13:25,186  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-11 16:13:25,186  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-11 16:13:25,187  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-11 16:13:25,187  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-11 16:13:25,187  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-10-11 16:13:25,188  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-10-11 16:13:26,597  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13695cf: startup date [Wed Oct 11 16:13:20 CST 2017]; root of context hierarchy
+2017-10-11 16:13:26,702  INFO RequestMappingHandlerMapping:543 - Mapped "{[/code],methods=[GET]}" onto public com.salinity.wms.pojo.UserEntity com.salinity.wms.controller.CodeController.getCode()
+2017-10-11 16:13:26,710  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/login],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.LoginController.login(java.lang.String,java.lang.String) throws java.lang.Exception
+2017-10-11 16:13:26,711  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/loginOut],methods=[GET]}" onto public void com.salinity.wms.controller.LoginController.loginOut(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-10-11 16:13:26,714  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.repones.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:13:26,715  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 16:13:26,716  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 16:13:26,719  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 16:13:26,720  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 16:13:26,800  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:13:26,801  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:13:26,878  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:13:26,927  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: class path resource [static/index.html]
+2017-10-11 16:13:28,115  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 16:13:28,644  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-10-11 16:13:28,646  INFO AnnotationMBeanExporter:916 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-10-11 16:13:28,657  INFO AnnotationMBeanExporter:671 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-10-11 16:13:28,660  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-10-11 16:13:28,667  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e3bcc05: startup date [Wed Oct 11 16:13:28 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13695cf
+2017-10-11 16:13:28,772  INFO DefaultListableBeanFactory:828 - Overriding bean definition for bean 'handlerExceptionResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=handlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=endpointWebMvcChildContextConfiguration; factoryMethodName=compositeHandlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcChildContextConfiguration]
+2017-10-11 16:13:28,869  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8081 (http)
+2017-10-11 16:13:28,890  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 223 ms
+2017-10-11 16:13:28,897  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-11 16:13:29,029  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,031  INFO EndpointHandlerMapping:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-10-11 16:13:29,032  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,033  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-10-11 16:13:29,034  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,039  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-10-11 16:13:29,041  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,049  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-10-11 16:13:29,050  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-10-11 16:13:29,051  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,053  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-10-11 16:13:29,054  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,056  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,057  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,059  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,061  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-10-11 16:13:29,062  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-11 16:13:29,092  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.boot.actuate.endpoint.mvc.ManagementErrorEndpoint.invoke()
+2017-10-11 16:13:29,103  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:13:29,105  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 16:13:29,126  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e3bcc05: startup date [Wed Oct 11 16:13:28 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13695cf
+2017-10-11 16:13:29,271  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8081 (http)
+2017-10-11 16:13:29,275  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 0
+2017-10-11 16:13:29,277  INFO EndpointMBeanExporter:678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-10-11 16:13:29,297  INFO EndpointMBeanExporter:678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-10-11 16:13:29,307  INFO EndpointMBeanExporter:678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-10-11 16:13:29,322  INFO EndpointMBeanExporter:678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-10-11 16:13:29,333  INFO EndpointMBeanExporter:678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-10-11 16:13:29,336  INFO EndpointMBeanExporter:678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-10-11 16:13:29,341  INFO EndpointMBeanExporter:678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-10-11 16:13:29,347  INFO EndpointMBeanExporter:678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-10-11 16:13:29,350  INFO EndpointMBeanExporter:678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-10-11 16:13:29,353  INFO EndpointMBeanExporter:678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-10-11 16:13:29,356  INFO EndpointMBeanExporter:678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-10-11 16:13:29,359  INFO EndpointMBeanExporter:678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-10-11 16:13:29,363  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 16:13:29,403  WARN BrokerService:2146 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 892 mb - resetting to 70% of maximum available: 624 mb
+2017-10-11 16:13:29,429  INFO BrokerService:671 - Using Persistence Adapter: MemoryPersistenceAdapter
+2017-10-11 16:13:29,459  INFO ManagementContext:155 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2017-10-11 16:13:29,563  INFO BrokerService:734 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1822-1507709609444-0:1) is starting
+2017-10-11 16:13:29,569  INFO BrokerService:761 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-1822-1507709609444-0:1) started
+2017-10-11 16:13:29,569  INFO BrokerService:762 - For help or more information please see: http://activemq.apache.org
+2017-10-11 16:13:29,598  INFO TransportConnector:263 - Connector vm://localhost started
+2017-10-11 16:13:29,651  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-10-11 16:13:29,690  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 16:13:29,694  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 16:13:29,695  INFO WmsApplication:57 - Started WmsApplication in 9.563 seconds (JVM running for 10.085)
+2017-10-11 16:14:45,567  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-11 16:14:45,591  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2017-10-11 16:15:21,607  WARN PageNotFound:215 - Request method 'POST' not supported
+2017-10-11 16:16:54,622  WARN PageNotFound:215 - Request method 'POST' not supported
+2017-10-11 18:24:12,710  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 18:24:12,719  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 18:24:12,907  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 18:24:12,951  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74a7e4d9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3aa19e64, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48a5d54e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f571924, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f33cbcc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7188d649, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4eac8cda, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@22536490, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10ef3b8b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4a2e2b5c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d20cb10, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53f39660]
+2017-10-11 18:24:12,952  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 18:24:12,953  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 18:24:12,955  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 18:24:14,089  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 18:24:14,095  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 18:24:14,098  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@628e5ef0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70fb111c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73207f36, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a7fed46, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b2bd15, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@729bb01b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b46f765, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@201c2e7f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1a30a451, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6f73cf45, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1c2cf42d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b52c4ce]
+2017-10-11 18:24:14,104  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.service.impl.UserServiceTest], using SpringBootContextLoader
+2017-10-11 18:24:14,105  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.service.impl.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 18:24:14,113  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 18:24:14,117  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65010970, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2712cbde, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43066fdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b99f6e4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@592021b7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c85a317, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@59966240, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@200c85b3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@161dbb35, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79ed9fea, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f9dfa2f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c9454b3]
+2017-10-11 18:24:14,908  INFO UserServiceTest:48 - Starting UserServiceTest on tong1-PC with PID 7720 (started by Administrator in H:\study\wms)
+2017-10-11 18:24:14,909  INFO UserServiceTest:597 - The following profiles are active: develop
+2017-10-11 18:24:15,028  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@17945ecb: startup date [Wed Oct 11 18:24:15 CST 2017]; root of context hierarchy
+2017-10-11 18:24:16,343  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-11 18:24:17,529  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 18:24:20,870  INFO DruidDataSource:638 - {dataSource-1} inited
+2017-10-11 18:24:24,000  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@17945ecb: startup date [Wed Oct 11 18:24:15 CST 2017]; root of context hierarchy
+2017-10-11 18:24:24,125  INFO RequestMappingHandlerMapping:543 - Mapped "{[/code],methods=[GET]}" onto public com.salinity.wms.pojo.UserEntity com.salinity.wms.controller.CodeController.getCode()
+2017-10-11 18:24:24,130  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/login],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.LoginController.login(java.lang.String,java.lang.String) throws java.lang.Exception
+2017-10-11 18:24:24,131  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/loginOut],methods=[GET]}" onto public void com.salinity.wms.controller.LoginController.loginOut(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-10-11 18:24:24,134  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 18:24:24,134  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.repones.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 18:24:24,135  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 18:24:24,141  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 18:24:24,141  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 18:24:24,236  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:24,236  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:24,315  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:24,540  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: ServletContext resource [/index.html]
+2017-10-11 18:24:25,976  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 18:24:26,159  WARN EndpointWebMvcAutoConfiguration:159 - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2017-10-11 18:24:26,169  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 18:24:26,276  WARN BrokerService:2146 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 892 mb - resetting to 70% of maximum available: 624 mb
+2017-10-11 18:24:26,736  INFO BrokerService:671 - Using Persistence Adapter: MemoryPersistenceAdapter
+2017-10-11 18:24:26,857  INFO ManagementContext:155 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2017-10-11 18:24:26,950  INFO BrokerService:734 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-11388-1507717466799-0:1) is starting
+2017-10-11 18:24:26,957  INFO BrokerService:761 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-11388-1507717466799-0:1) started
+2017-10-11 18:24:26,957  INFO BrokerService:762 - For help or more information please see: http://activemq.apache.org
+2017-10-11 18:24:27,033  INFO TransportConnector:263 - Connector vm://localhost started
+2017-10-11 18:24:27,178  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 18:24:27,178  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 18:24:27,181  INFO UserServiceTest:57 - Started UserServiceTest in 12.901 seconds (JVM running for 15.587)
+2017-10-11 18:24:28,223  INFO SpringBootTestContextBootstrapper:319 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salinity.wms.WmsApplicationTests], using SpringBootContextLoader
+2017-10-11 18:24:28,224  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.salinity.wms.WmsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-11 18:24:28,224  INFO AnnotationConfigContextLoaderUtils:81 - Could not detect default configuration classes for test class [com.salinity.wms.WmsApplicationTests]: WmsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-10-11 18:24:28,227  INFO SpringBootTestContextBootstrapper:206 - Found @SpringBootConfiguration com.salinity.wms.WmsApplication for test class com.salinity.wms.WmsApplicationTests
+2017-10-11 18:24:28,233  INFO SpringBootTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-10-11 18:24:28,237  INFO SpringBootTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77207196, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73016bf3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62565981, org.springframework.test.context.support.DirtiesContextTestExecutionListener@130e5697, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1256dd47, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d969b9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5dabf32b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43e9bc18, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@263bee7d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@28a66427, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@43f9514a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2547f423]
+2017-10-11 18:24:28,299  INFO WmsApplicationTests:48 - Starting WmsApplicationTests on tong1-PC with PID 7720 (started by Administrator in H:\study\wms)
+2017-10-11 18:24:28,300  INFO WmsApplicationTests:597 - The following profiles are active: develop
+2017-10-11 18:24:28,302  INFO GenericWebApplicationContext:583 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4f4f0770: startup date [Wed Oct 11 18:24:28 CST 2017]; root of context hierarchy
+2017-10-11 18:24:28,831  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-11 18:24:29,079  INFO DruidDataSource:638 - {dataSource-2} inited
+2017-10-11 18:24:29,780  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4f4f0770: startup date [Wed Oct 11 18:24:28 CST 2017]; root of context hierarchy
+2017-10-11 18:24:29,806  INFO RequestMappingHandlerMapping:543 - Mapped "{[/code],methods=[GET]}" onto public com.salinity.wms.pojo.UserEntity com.salinity.wms.controller.CodeController.getCode()
+2017-10-11 18:24:29,808  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/login],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.LoginController.login(java.lang.String,java.lang.String) throws java.lang.Exception
+2017-10-11 18:24:29,810  INFO RequestMappingHandlerMapping:543 - Mapped "{[/wms/loginOut],methods=[GET]}" onto public void com.salinity.wms.controller.LoginController.loginOut(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-10-11 18:24:29,813  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/{id}],methods=[GET]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.getUser(java.lang.Long)
+2017-10-11 18:24:29,814  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[GET]}" onto public com.salinity.wms.common.repones.PageResponse com.salinity.wms.controller.main.UserController.getUser(javax.servlet.http.HttpServletRequest,com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 18:24:29,816  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user],methods=[POST]}" onto public com.salinity.wms.common.repones.ResponseResult com.salinity.wms.controller.main.UserController.addUser(com.salinity.wms.pojo.dto.UserDTO)
+2017-10-11 18:24:29,820  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-11 18:24:29,821  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-11 18:24:29,872  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:29,873  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:29,916  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-11 18:24:29,936  INFO WebMvcAutoConfiguration$WelcomePageHandlerMapping:549 - Adding welcome page: ServletContext resource [/index.html]
+2017-10-11 18:24:30,423  WARN RedisStarterDeprecationWarningAutoConfiguration:43 - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-10-11 18:24:30,488  WARN EndpointWebMvcAutoConfiguration:159 - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2017-10-11 18:24:30,488  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-10-11 18:24:30,503  INFO LogConsumer:18 - Has received from LOG_QUEUE msgThis is a log message
+2017-10-11 18:24:30,504  INFO LogProducer:32 - Log Message was sent to Queue named sample.log
+2017-10-11 18:24:30,506  INFO WmsApplicationTests:57 - Started WmsApplicationTests in 2.259 seconds (JVM running for 18.912)
+2017-10-11 18:24:30,514  INFO GenericWebApplicationContext:984 - Closing org.springframework.web.context.support.GenericWebApplicationContext@17945ecb: startup date [Wed Oct 11 18:24:15 CST 2017]; root of context hierarchy
+2017-10-11 18:24:30,517  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-10-11 18:24:30,519  INFO GenericWebApplicationContext:984 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4f4f0770: startup date [Wed Oct 11 18:24:28 CST 2017]; root of context hierarchy
+2017-10-11 18:24:30,519  INFO BrokerService:808 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-11388-1507717466799-0:1) is shutting down
+2017-10-11 18:24:30,522  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-10-11 18:24:31,019  WARN DefaultMessageListenerContainer:880 - Setup of JMS message listener invoker failed for destination 'LOG_QUEUE' - trying to recover. Cause: peer (vm://localhost#1) stopped.
+2017-10-11 18:24:31,021  INFO TransportConnector:294 - Connector vm://localhost stopped
+2017-10-11 18:24:31,029  INFO DruidDataSource:1288 - {dataSource-1} closed
+2017-10-11 18:24:33,093  INFO BrokerService:869 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-11388-1507717466799-0:1) uptime 6.832 seconds
+2017-10-11 18:24:33,094  INFO BrokerService:871 - Apache ActiveMQ 5.14.5 (localhost, ID:tong1-PC-11388-1507717466799-0:1) is shutdown
+2017-10-11 18:24:36,027  WARN DefaultMessageListenerContainer:880 - Setup of JMS message listener invoker failed for destination 'LOG_QUEUE' - trying to recover. Cause: peer (vm://localhost#5) stopped.
+2017-10-11 18:24:36,030  INFO DruidDataSource:1288 - {dataSource-2} closed
